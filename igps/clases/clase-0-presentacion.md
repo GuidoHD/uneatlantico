@@ -1,11 +1,11 @@
 # Presentación de la asignatura - Introducción a la Gestión de Proyectos de Software
 
+
 ## ¿Qué esperar de la asignatura? ¿Qué espero de vosotros?
 
 Introducción a la Gestión de Proyectos de Software está enfocada para este curso 2025-2026 en comprender las bases de la ingeniería y conocer y dominar las herramientas con las que el estudiante va a estar trabajando este curso.
 
 Además, la clase está pensada para mejorar las habilidades de exposición, razonamiento y análisis.
-
 
 ## Sistema de calificación
 | Actividades de evaluación | Ponderación |
