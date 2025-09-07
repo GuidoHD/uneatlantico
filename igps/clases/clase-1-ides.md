@@ -32,7 +32,7 @@ Actualmente este tipo de software permite el uso de herramientas avanzadas cómo
 
 ### Panorama de IDEs
 
-![[ides.jpg]]
+![IDES](ides.jpg)
 
 IDEs hay muchos. Unos más famosos y otros menos. Al final un IDE es bueno si te sirve a ti como ingeniero/a para realizar el desarrollo del proyecto de la manera más eficiente para ti y el proyecto concreto en el que estás trabajando.
 
