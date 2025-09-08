@@ -72,12 +72,12 @@ Podéis descargar Visual Studio Code [aquí](https://code.visualstudio.com)
 	- [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
 #### Funcionalidades clave de Visual Studio Code
-- Autocompletado y sugerencias {Ctrl + Space}
-- Depuración paso a paso {F5}
+- Autocompletado y sugerencias `Ctrl + Space`
+- Depuración paso a paso `F5`
 - Control de versiones integrado (a través de extensiones)
-- Terminal integrada (con opción de tener varías) {Ctrl + Ñ}
-- Búsqueda y remplazo avanzado {Ctrl + H}
-- Búsqueda de archivos e inicio de procesos rápida {Ctrl + P para buscar, > para buscar procesos}
+- Terminal integrada (con opción de tener varías) `Ctrl + Ñ`
+- Búsqueda y remplazo avanzado `Ctrl + H`
+- Búsqueda de archivos e inicio de procesos rápida `Ctrl + P para buscar, > para buscar procesos`
 
 #### Consejos
 - Instalar solo las extensiones necesarias para tus necesidades.
