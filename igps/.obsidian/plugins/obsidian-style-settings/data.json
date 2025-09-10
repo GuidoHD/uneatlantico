@@ -20,5 +20,6 @@
   "blue-topaz-theme@@toggle-header-bottom-line": false,
   "blue-topaz-theme@@layout-style-options": "bt-bubble-layout",
   "blue-topaz-theme@@bt-bubble-not-file-tree": true,
-  "blue-topaz-theme@@bt-bubble-buttons": true
+  "blue-topaz-theme@@bt-bubble-buttons": true,
+  "blue-topaz-theme@@bt-bubble-layout-hide-borders": false
 }

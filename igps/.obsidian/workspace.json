@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clases/clase-1-ides.md",
+                "file": "clases/clase-2-git-introduccion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clase-1-ides"
+              "title": "clase-2-git-introduccion"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "clases/clase-1-ides.md",
+                "file": "clases/clase-2-git-introduccion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of clase-1-ides"
+              "title": "Outline of clase-2-git-introduccion"
             }
           }
         ],
@@ -173,6 +173,30 @@
   },
   "active": "c8bd846a072037da",
   "lastOpenFiles": [
+    "clases/imgs/git-branches.png",
+    "clases/imgs/git-branches.png.opdownload",
+    "clases/imgs/branches.svg",
+    "clases/imgs/branches.svg.opdownload",
+    "clases/imgs/linus_torvalds.jpg",
+    "clases/imgs/4g8dckjp6lx51.jpg",
+    "clases/clase-1-ides.md",
+    "clases/clase-2-git-introduccion.md",
+    "clases/clase-9-markdown-actividad.md",
+    "clases/clase-8-markdown-avanzado.md",
+    "clases/clase-7-markdown-introduccion.md",
+    "clases/clase-6-proceso_software.md",
+    "clases/clase-5-ingenieria_software.md",
+    "clases/clase-4-git-actividad.md",
+    "clases/clase-3-git-avanzado.md",
+    "clases/clase-18-proyecto_integracion.md",
+    "clases/clase-17-calidad_software.md",
+    "clases/clase-16-innovacion.md",
+    "clases/clase-15-plantuml-uml-actividad.md",
+    "clases/clase-14-plantuml-uml-avanzado.md",
+    "clases/clase-13-plantuml-uml-introduccion.md",
+    "clases/clase-12-plantuml-nouml-actividad.md",
+    "clases/clase-11-plantuml-nouml-avanzado.md",
+    "clases/clase-10-plantuml-nouml-introduccion.md",
     "ides.jpg",
     "clases/imgs/ides.jpg",
     "clases/ides.jpg",
@@ -181,7 +205,6 @@
     "Frame 7.jpg",
     "Pasted image 20250907193416.png",
     "clases/clase-0-presentacion.md",
-    "clases/clase-1-ides.md",
     "README.md",
     "Untitled"
   ]
