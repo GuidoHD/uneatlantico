@@ -24,16 +24,8 @@ Un **sistema de control de versiones** es una herramienta que registra los cambi
 - No hay un punto central único.
 
 ## Representación Visual
-**CENTRALIZADO (SVN):**
-Servidor Central ← → Dev1
-       ↕
-     Dev2 ← → Dev3
 
-**DISTRIBUIDO (Git):**
-Dev1 ← → GitHub ← → Dev2
- ↕         ↕         ↕
-Dev3 ← →  Dev4  ← → Dev5
-
+![Distribuido vs Centralizado](imgs/control_versiones-distribuido_vs_centralizado.jpg)
 
 ## GIT - Fundamentos
 
@@ -43,7 +35,7 @@ Git es un software de control de versiones diseñado por Linus Torvalds. Enfocad
 Gratis, de código abierto y compatible para proyectos tanto grandes cómo pequeños.
 
 
-![[linus_torvalds.jpg]]
+![Linus Torvalds](imgs/linus_torvalds.jpg)
 
 ### Git y GitHub
 **GitHub** es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador.
@@ -139,11 +131,10 @@ Poniendo como analogía a un árbol, podemos decir que:
 - **Hojas**: Serían los commits individuales.
 - **Merge**: Cuando una rama se une de vuelta al tronco.
 
-![[git-branches.png]]
 
-![[branches.svg]]
+![Ramas GIT](imgs/git-branches.png)
 
-
+![Ramas GIT Avanzado](imgs/branches.svg)
 
 
 
