@@ -192,7 +192,35 @@ HTTPS es el protocolo seguro de transferencia de hipertexto que utiliza en su ci
 
 - Puede requerir ingresar credenciales frecuentemente (aunque puedes usar un credential helper o un token).
 
+### REPOSITORIO REMOTO
 
+El repositorio remoto es el directorio alojado en cualquier servicio en línea. Este, será modificado en función de los commits de los desarrolladores implicados. Muchos de estos servicios también ofrecen herramientas de seguridad y gestión para adaptarlos a tu negocio o proyecto.
+
+Los más conocidos son GitHub y GitLab, pero también se podría considerar un repositorio remoto a Google Drive.
+
+Para conectar el repositorio local con el remoto primero deberemos crear una cuenta en GitHub (dónde trabajaremos a partir de ahora), y crear el repositorio.
+Luego, desde la línea de comandos, ejecutaremos el siguiente comando:
+`git remote add origin <URL_REPO>`
+
+**Nota de estándares**: El argumento de origin en el comando simboliza el nombre que recibe el repositorio remoto, es buena práctica dejarlo así. También, puede haber veces en el que la rama principal del repositorio se llame "master" o "main" de manera por defecto (de hecho, es una configuración modificable en GitHub). Esto se debe a que en los últimos 10 años se ha ido hacia el uso del nombre "main" en la rama principal por varias razones. La primera es la estandarización por defecto de nombres, ya que puedes llamarla también "prod", "stable", etc... (todo depende del proyecto). Y la segunda es que la palabra "master" tiene connotaciones culturales negativas.
+
+Ahora, una vez establecido el repositorio remoto, ya podemos subir todo lo guardado en commits con el siguiente comando:
+
+`git push -u origin main` o simplemente `git push`
+
+Si no hay fallos en el terminal los cambios deberían estar aplicados en el repositorio remoto.
+
+**LA INVERSA**
+Ahora, ¿qué pasa cuando queremos crear el repositorio en GitHub y descargarlo en nuestro ordenador?
+
+Más fácil aún. Sólo tendremos que ir a través de terminal a nuestro directorio de proyectos y escribir `git clone <URL_REPO>`.
+Una vez hecho ya estaría todo listo para empezar a hacer cambios.
+
+Si te has equivocado al establecer el repositorio remoto, puedes cambiar la url de la siguiente manera: `git remote set-url origin <URL_REPO>`
+
+**TRABAJO COLABORATIVO**
+Imáginate que tú y tu compañero de equipo estáis trabajando en la misma rama en un mismo archivo. El trabaja por la mañana y tú por la tarde. Sabes que ha subido sus cambios y ahora quieres tenerlos en local para seguir avanzando en el trabajo. Fácil, sólo tienes que ejecutar el siguiente comando, `git pull`, y los cambios se te descargarán a tu repositorio local.
+Los conflictos es algo que veremos en la siguiente lección.
 
 
 #### El Formato
@@ -220,6 +248,7 @@ Más información sobre el formato de los commits [aquí](https://gist.github.co
 
 - `git log` Muestra el historial 
 - `git diff` Muestra los cambios
+- `git remote -v` Muestra los repositorios remotos configurados
 
 
 Si queréis saber más sobre Git y sus posibilidades, [aquí tenéis la documentación](https://git-scm.com/doc).
