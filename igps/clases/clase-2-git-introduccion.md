@@ -120,6 +120,11 @@ Cuando ejecutamos el comando `git status` nos va a devolver una serie de estados
 - **Staged**: El archivo está en el *staging area*.
 - **Commited**: El archivo está en el repositorio, registrado en el historial de git.
 
+**---Ejercicio práctico---**
+- Crear proyecto HTML simple
+- Hacer 5 commits diferentes
+- Explorar git log y git status
+
 #### Diagrama de flujo
 Git basa su organización en función a las ramas. ¿Pero qué son las ramas?
 Las **ramas (branches)** son líneas independientes de desarrollo que te permiten trabajar en diferentes características o experimentos sin afectar el código principal.
@@ -135,6 +140,58 @@ Poniendo como analogía a un árbol, podemos decir que:
 ![Ramas GIT](imgs/git-branches.png)
 
 ![Ramas GIT Avanzado](imgs/branches.svg)
+
+
+#### Repositorio remoto
+
+
+
+**SSH vs HTTPS**
+
+SSH (Sedcure Shell) es el nombre de un protocolo cuya función principal es la de conectar con un servidor remoto a travésd de un canal seguro dónde toda la información es cifrada.
+HTTPS es el protocolo seguro de transferencia de hipertexto que utiliza en su cifrado SSL para establecer un canal seguro gracias a la identificación por usuario y contraseña. Hoy en día este protocolo es el estándar y recomendado para cualquier página o aplicación web.
+
+| Característica               | SSH                                          | HTTPS                                       |
+| ---------------------------- | -------------------------------------------- | ------------------------------------------- |
+| Autenticación             | Por clave pública/privada                    | Por usuario y contraseña (o token personal) |
+| Seguridad                 | Muy segura (uso de criptografía asimétrica)  | Segura (usa SSL/TLS)                        |
+| Configuración             | Requiere generar e instalar claves           | Más simple, sin configuración inicial       |
+| Uso repetido              | No pide credenciales cada vez (usa la clave) | Puede pedir usuario/token en cada push      |
+| Firewalls/Proxies         | Puede estar bloqueado por algunas redes      | Funciona casi siempre (puerto 443)          |
+| Experiencia de usuario | Ideal para desarrolladores frecuentes        | Mejor para principiantes o usos esporádicos |
+
+
+**¿Cuándo usar SSH?**
+
+- Eres desarrollador frecuente y trabajas con Git todos los días.
+- Quieres evitar ingresar tu usuario/contraseña/token cada vez. (Tiene truco).
+- Tu red permite el puerto 22 (usado por SSH).
+- Tienes experiencia configurando claves SSH.
+
+**Ventajas**
+- Más seguro a largo plazo.
+- Automatizable (por ejemplo, en scripts CI/CD).
+
+**Desventajas**
+- Requiere configuración inicial (claves, agente SSH).
+
+
+
+**¿Cuándo usar HTTPS?**
+
+- Estás comenzando con Git o es un uso ocasional.
+- Estás detrás de un proxy o firewall restrictivo.
+- Quieres una configuración rápida y sencilla.
+
+**Ventajas**
+
+- Compatible con casi todas las redes.
+- Fácil de usar al principio.
+
+**Desventajas**
+
+- Puede requerir ingresar credenciales frecuentemente (aunque puedes usar un credential helper o un token).
+
 
 
 
